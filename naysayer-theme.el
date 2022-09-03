@@ -49,6 +49,7 @@
       (error "#ff0000")
       (warning "#ffaa00")
       (highlight-line "#0b3335")
+	  (inactive-line "#cccccc")
       (line-fg "#126367"))
 
   (custom-theme-set-faces
@@ -122,7 +123,7 @@
    `(mode-line-inactive ((t (:inverse-video unspecified
                                             :underline unspecified
                                             :foreground ,background
-                                            :background ,functions
+                                            :background ,inactive-line
                                             :box t))))
    `(powerline-inactive1 ((t (:background ,background :foreground ,text))))
    `(powerline-inactive2 ((t (:background ,background :foreground ,text))))

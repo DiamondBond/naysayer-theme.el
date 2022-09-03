@@ -115,15 +115,15 @@
                                    :underline unspecified
                                    :foreground ,background
                                    :background ,text
-                                   :box nil))))
+                                   :box t))))
    `(powerline-active1 ((t (:background ,text :foreground ,background))))
    `(powerline-active2 ((t (:background ,text :foreground ,background))))
 
    `(mode-line-inactive ((t (:inverse-video unspecified
                                             :underline unspecified
-                                            :foreground ,text
-                                            :background ,background
-                                            :box nil))))
+                                            :foreground ,background
+                                            :background ,functions
+                                            :box t))))
    `(powerline-inactive1 ((t (:background ,background :foreground ,text))))
    `(powerline-inactive2 ((t (:background ,background :foreground ,text))))
 
